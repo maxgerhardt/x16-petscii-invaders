@@ -76,7 +76,7 @@ void initInvaders()
 {
     voiceSettings.frequency  = 400;
     voiceSettings.channel    = PSG_CHANNEL_BOTH;
-    voiceSettings.volume     = PSG_VOLUME_KNOB_11;
+    voiceSettings.volume     = PSG_VOLUME_KNOB_5;
     voiceSettings.waveform   = PSG_WAVE_PULSE;
     voiceSettings.pulseWidth = PSG_PULSE_SQUARE;
 

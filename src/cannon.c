@@ -41,18 +41,21 @@ void showCannon()
           // left
           case 'j':
           case 'a':
+          case 157:
             if (x>CANNON_MIN_X) --x;
             break;
 
           // right
           case 'l':
           case 'd':
+          case 29:
             if (x<CANNON_MAX_X) ++x;
             break;
 
           // fire
           case 'z':
           case '/':
+          case ' ':
             fireCannon(x+1);
             break;
        }
